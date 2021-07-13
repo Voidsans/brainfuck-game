@@ -10,7 +10,7 @@ use serenity::{async_trait, prelude::*};
 pub mod game;
 
 const MAX_PLAYERS: u8 = 8;
-const PLAYERS: [char; MAX_PLAYERS as usize] = ['X', 'O', 'Y', 'Z', 'A', 'B', 'C', 'D'];
+const PLAYERS: [char; MAX_PLAYERS as usize] = ['X', 'O', 'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W'];
 const ROLE_ID: u64 = 864243710576689223;
 
 /// Stores the current game and its configuration.
